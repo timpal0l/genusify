@@ -7,7 +7,7 @@ def main():
     # bs.get_profiles(100)
     bs.get_blog()
     ts.get_text()
-    print("1")
+    print("s1")
 
 
 if __name__ == '__main__':

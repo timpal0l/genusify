@@ -9,7 +9,7 @@ from random import randrange
 # Gets and stores all profile url's, in a file.
 def get_profiles(maxpages):
     print('Starts scraping for profiles..')
-    profiles = open('profiles', 'w')
+    profiles = open('/data/profiles', 'w')
     base_url = 'https://www.blogger.com/profile-find.g?t=l&loc0=SE&start='
     currentpage = 0
 
